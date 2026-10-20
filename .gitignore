@@ -1,0 +1,19 @@
+# data release and generated cache are never committed
+tables/
+data_cache/
+*.csv
+*.parquet
+
+# Quarto and Python artifacts
+.quarto/
+*_files/
+__pycache__/
+*.py[cod]
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Kate's master data dictionary is source, not data
+!data_dictionary_combined.csv
